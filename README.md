@@ -1,10 +1,10 @@
-# 🕵️ Job Authenticity Classifier
+# Job Authenticity Classifier
 
 A simple, open-source Streamlit app that predicts whether a job posting is **real or fake** using machine learning and NLP.
 
 ---
 
-## 🔍 What It Does
+## What It Does
 - Accepts a job listing URL from the user
 - Extracts the job description text from the page
 - Uses a trained Logistic Regression model to classify the job as **REAL** or **FAKE**
@@ -12,7 +12,7 @@ A simple, open-source Streamlit app that predicts whether a job posting is **rea
 
 ---
 
-## 🧠 How It Works
+## How It Works
 1. **Dataset:** Trained on the [Fake Job Postings Dataset](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)
 2. **Text Processing:** Combines job title, location, description, requirements, and company profile
 3. **Vectorization:** TF-IDF vectorizer (5000 features)
@@ -21,7 +21,7 @@ A simple, open-source Streamlit app that predicts whether a job posting is **rea
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -50,16 +50,16 @@ Trained on balanced data (upsampled minority class):
 
 ---
 
-## 📌 Notes
+## Notes
 - Works best on sites with publicly viewable job descriptions (e.g., Indeed)
 - Sites like LinkedIn may block scraping (use with caution)
 
 ---
 
-## 📬 Contributing
+## Contributing
 Feel free to fork, tweak, and contribute! PRs welcome.
 
 ---
 
-## 📜 License
+## License
 MIT License © 2025 Aashi Sharma
